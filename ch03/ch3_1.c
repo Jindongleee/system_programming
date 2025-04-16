@@ -8,7 +8,7 @@ int main(){
 
     stat("linux.txt", &statbuf);
 
-    pruntf("Inode = %d\n", (int)statbuf.st_ino);
+    printf("Inode = %d\n", (int)statbuf.st_ino);
     printf("Mode = %o\n", (unsigned int)statbuf.st_mode);
     printf("Nlink = %d\n", (int)statbuf.st_nlink);
     printf("UID = %d\n", (int)statbuf.st_uid);
