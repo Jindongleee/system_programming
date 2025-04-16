@@ -1,0 +1,1 @@
+DUP2: Standard output is redirected to test.txt
