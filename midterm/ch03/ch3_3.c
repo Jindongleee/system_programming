@@ -17,4 +17,18 @@ int main()
 
     // 파일 종류 출력
     printf("Kind = %o\n", kind);
+
+    switch (kind) {
+
+        case S_IFLNK:
+            printf("linux.txt:Symbolic Link\n");
+            break;
+        case S_IFDIR:
+            printf("linux.txt:Directory \n");
+            break;
+        case S_IFREG:
+            printf("linux.txt:Regular File\n");
+            break;
+    }
+    
 }
