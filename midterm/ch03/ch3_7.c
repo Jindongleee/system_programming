@@ -5,8 +5,11 @@
 int main(){
     struct stat statbuf;
 
+
+    // read, write, execute 
     chmod("linux.txt", S_IRWXU | S_IRGRP | S_IXGRP | S_IROTH);
 
+    // linux.txt의 메타데이터를 statbuf 구조체에 저장하는 역할
     stat("linux.txt", &statbuf);
     printf("1. Mode = %o\n", (unsigned int)statbuf.st_mode);
 
