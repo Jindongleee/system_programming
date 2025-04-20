@@ -1,0 +1,7 @@
+ls -l > text.txt redirected
+
+total 88
+-rw-r--r--  1 eddy  staff    348  4  9 10:07 cat.c
+-rwxr-xr-x  1 eddy  staff  33464  4  9 09:25 test
+-rw-r--r--  1 eddy  staff    590  4  9 09:49 test.c
+-rw-r--r--  1 eddy  staff      0  4  9 10:48 text.txt
