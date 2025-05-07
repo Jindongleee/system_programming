@@ -1,0 +1,7 @@
+1. 트리
+2. extern: // f1.c -> int a = 10 int main(){} 
+           // f2.c -> extern int a int main() {} 즉  이때 a는 f1.c의 a를 사용 gcc -o f1.c f2.c
+
+3. CMOS(BIOS) setup -> 특정 키(F12)를 통해 ROM 진입
+
+
