@@ -65,7 +65,7 @@ int main()
 
         for (int i = 0; i < count; i++)
         {
-            if (strcmp(token[i], "*") == 0 || strcmp(token[i], "%") == 0)
+            if (strcmp(token[i], "*") == 0 || strcmp(token[i], "/") == 0)
             {
                 // 연산자 좌우의 숫자 추출 및 연산
                 int left = atoi(newToken[--newCount]);

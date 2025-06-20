@@ -20,4 +20,5 @@ int main(){
 
     stat("linux.txt", &statbuf);
     printf("2. Mode = %o\n", (unsigned int)statbuf.st_mode);
+    
 }
